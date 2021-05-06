@@ -5,7 +5,7 @@ import java.io.Serializable;
 import br.com.leomanzini.dsvendas.obj.Seller;
 
 public class SellerDTO implements Serializable {
-	private static final long serialVersionUID = 3420576798704612275L;
+	private static final long serialVersionUID = 1L;
 	
 	private Long id;
 	private String name;
