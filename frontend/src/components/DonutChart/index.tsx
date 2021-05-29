@@ -24,7 +24,7 @@ function DonutChart() {
     
             console.log(chartData);
         });
-    });
+    }, [chartData]);
     
     const options = {
         legend: {
