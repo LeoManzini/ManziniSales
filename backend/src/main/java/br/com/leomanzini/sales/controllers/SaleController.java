@@ -1,4 +1,4 @@
-package br.com.leomanzini.dsvendas.controllers;
+package br.com.leomanzini.sales.controllers;
 
 import java.util.List;
 
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.leomanzini.dsvendas.dto.SaleDTO;
-import br.com.leomanzini.dsvendas.dto.SaleSuccessDTO;
-import br.com.leomanzini.dsvendas.dto.SaleSumDTO;
-import br.com.leomanzini.dsvendas.services.SaleService;
+import br.com.leomanzini.sales.dto.SaleDTO;
+import br.com.leomanzini.sales.dto.SaleSuccessDTO;
+import br.com.leomanzini.sales.dto.SaleSumDTO;
+import br.com.leomanzini.sales.services.SaleService;
 
 @RestController
 @RequestMapping(value = "/sales")

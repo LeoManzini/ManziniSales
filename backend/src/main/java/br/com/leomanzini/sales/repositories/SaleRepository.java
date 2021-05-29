@@ -1,13 +1,13 @@
-package br.com.leomanzini.dsvendas.repositories;
+package br.com.leomanzini.sales.repositories;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import br.com.leomanzini.dsvendas.dto.SaleSuccessDTO;
-import br.com.leomanzini.dsvendas.dto.SaleSumDTO;
-import br.com.leomanzini.dsvendas.obj.Sale;
+import br.com.leomanzini.sales.dto.SaleSuccessDTO;
+import br.com.leomanzini.sales.dto.SaleSumDTO;
+import br.com.leomanzini.sales.obj.Sale;
 
 public interface SaleRepository extends JpaRepository<Sale, Long> {
 

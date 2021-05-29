@@ -1,4 +1,4 @@
-package br.com.leomanzini.dsvendas.services;
+package br.com.leomanzini.sales.services;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.leomanzini.dsvendas.dto.SaleDTO;
-import br.com.leomanzini.dsvendas.dto.SaleSuccessDTO;
-import br.com.leomanzini.dsvendas.dto.SaleSumDTO;
-import br.com.leomanzini.dsvendas.obj.Sale;
-import br.com.leomanzini.dsvendas.repositories.SaleRepository;
-import br.com.leomanzini.dsvendas.repositories.SellerRepository;
+import br.com.leomanzini.sales.dto.SaleDTO;
+import br.com.leomanzini.sales.dto.SaleSuccessDTO;
+import br.com.leomanzini.sales.dto.SaleSumDTO;
+import br.com.leomanzini.sales.obj.Sale;
+import br.com.leomanzini.sales.repositories.SaleRepository;
+import br.com.leomanzini.sales.repositories.SellerRepository;
 
 @Service
 public class SaleService {

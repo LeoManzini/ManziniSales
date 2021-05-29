@@ -1,4 +1,4 @@
-package br.com.leomanzini.dsvendas.obj;
+package br.com.leomanzini.sales.obj;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package br.com.leomanzini.dsvendas.services;
+package br.com.leomanzini.sales.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.leomanzini.dsvendas.dto.SellerDTO;
-import br.com.leomanzini.dsvendas.obj.Seller;
-import br.com.leomanzini.dsvendas.repositories.SellerRepository;
+import br.com.leomanzini.sales.dto.SellerDTO;
+import br.com.leomanzini.sales.obj.Seller;
+import br.com.leomanzini.sales.repositories.SellerRepository;
 
 @Service
 public class SellerService {

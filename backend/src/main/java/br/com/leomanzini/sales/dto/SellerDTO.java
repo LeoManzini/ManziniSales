@@ -1,8 +1,8 @@
-package br.com.leomanzini.dsvendas.dto;
+package br.com.leomanzini.sales.dto;
 
 import java.io.Serializable;
 
-import br.com.leomanzini.dsvendas.obj.Seller;
+import br.com.leomanzini.sales.obj.Seller;
 
 public class SellerDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

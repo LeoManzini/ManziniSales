@@ -1,4 +1,4 @@
-package br.com.leomanzini.dsvendas.utils;
+package br.com.leomanzini.sales.utils;
 
 import java.util.Arrays;
 
