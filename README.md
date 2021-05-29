@@ -86,3 +86,4 @@ If the graphics are having a slow render it's because the database was at sleepi
 
 ![dashboard](https://user-images.githubusercontent.com/39606289/120084976-f0b06f00-c0aa-11eb-901c-edf47e2af1ae.png)
 
+At the footer you have my personal links to GitHub and Linkedin, fell free to visit!
