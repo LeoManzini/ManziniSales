@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { SalePage } from "types/sale";
+import { formatLocalDate } from "utils/format";
 import { BASE_URL } from "utils/requests";
 
 function DataTable() {
@@ -33,8 +34,8 @@ function DataTable() {
                 </thead>
                 <tbody>
                     {page.content?.map(item => (
-                        <tr>
-                            <td>{item.date}</td>
+                        <tr key={item.id}>
+                            <td>{formatLocalDate(item.date, "dd/MM/yyyy")}</td>
                             <td>{item.seller.name}</td>
                             <td>{item.visited}</td>
                             <td>{item.deals}</td>
